@@ -91,7 +91,7 @@ def main():
     tela.pack()
     font.families()
     courier36 = font.Font(family='Courier', size=18, weight='bold')
-    tela.create_text(canvas_largura // 2, 50, text="Rélogio Digital", font=courier36)
+    tela.create_text(canvas_largura // 2, 50, text="Relógio Digital", font=courier36)
 
     relogio = criaRelogio()
 
